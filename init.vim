@@ -1,0 +1,1 @@
+/home/foxy/.config/nvim/init.vim
