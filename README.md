@@ -8,4 +8,4 @@ F no chat para:
 - Ubuntu 20.04 x2 (... sim, 2 vezes no mesmo dia e não, não me pergunte como)
 - Arch Linux (vai saber em que versão aquilo tava)
 
-Mas quem ciria que dar <code>sudo chown -R root /</code> poderia dar tanto problema ein
+Mas quem ciria que um simples <code>sudo chown -R root /</code> poderia dar tanto problema ein
