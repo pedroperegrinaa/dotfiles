@@ -1,4 +1,4 @@
-# Dotfiles
+# ~/.dotfiles
 
 Várias distros foram quebradas até que eu tomasse vergonha na cara pra criar esse repositório.
 
