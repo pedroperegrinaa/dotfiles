@@ -69,7 +69,9 @@ nmap tt :q<CR>
 " Call command shortcut
 nmap tc :!
 
-" autocmd """"""""""
+nmap t. 10^W>
+
+"autocmd """"""""""
 " autocmds aqui
 
 function! HighlightWordUnderCursor()
