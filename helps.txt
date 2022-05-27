@@ -7,3 +7,9 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
 
 Resposta:
 sudo service docker start
+
+### Docker Comandos
+
+docker container ls
+docker logs -f <container>
+docker rm <container>
