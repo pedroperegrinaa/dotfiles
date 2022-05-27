@@ -1,0 +1,9 @@
+# Ajudinhas pra erros que aparecem com frequência e eu esqueço da solução :)
+
+## Docker (Ubuntu 20.04 WSL2)
+
+Erro:
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+Resposta:
+sudo service docker start
