@@ -21,10 +21,12 @@ O arquivo .yml permute que você gerencie multiplos containers docker com um ún
 
 # MongoDB
 
+```
 sudo systemctl start mongod # Liga o mongo_db
 sudo systemctl status mongod # verifica o tatus do mongo_db
 sudo systemctl stop mongod # Parao mongo_db
 sudo systemctl restart mongod # reinicia o mongo_db
+```
 
 ou...
 
@@ -41,13 +43,13 @@ db.auth('root', 'secret')
 ### MongoDB Comandos
 
 Por algum motivo meus testes estão no develop então utilize "use develop" para ter acesso
-
+CANCELA CANCELA, TENTA ```use admin``` e depois o ```db.auth('root', 'secret')```
 show dbs
-use novo_banco (e então você da um .insert() para adicionar um objeto e confirmar a crianção do banco)
+use novo_banco # (e então você da um .insert() para adicionar um objeto e confirmar a crianção do banco)
 show collections
 db.collection.find()
 db.collection.insert({"key": "value"})
 db.collection.deleteMany()
 db.collection.drop()
-
+```
 
