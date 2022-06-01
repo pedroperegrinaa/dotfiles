@@ -14,8 +14,10 @@ sudo service docker start
 docker container ls
 docker logs -f <container>
 docker rm <container>
+docker rmi --force <container>
 docker run -d -p 3005:3005 <container>:<tag>
 docker exec -it <container name (4 first numers)> <program (bash)>
+docker logs --tail 50 --follow --timestamps <container>
 
 O arquivo .yml permute que você gerencie multiplos containers docker com um único `docker-compose up` :D
 
