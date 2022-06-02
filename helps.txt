@@ -10,6 +10,8 @@ sudo service docker start
 
 ### Docker Comandos
 
+docker pull <image>
+docker run --name <nome-personalizado> -d <imagem>
 
 docker container ls
 docker logs -f <container>
@@ -45,7 +47,9 @@ db.auth('root', 'secret')
 ### MongoDB Comandos
 
 Por algum motivo meus testes estão no develop então utilize "use develop" para ter acesso
-CANCELA CANCELA, TENTA ```use admin``` e depois o ```db.auth('root', 'secret')```
+CANCELA CANCELA, TENTA ```use admin``` e depois o ```db.auth('root', 'secret')
+
+```bash
 show dbs
 use novo_banco # (e então você da um .insert() para adicionar um objeto e confirmar a crianção do banco)
 show collections
@@ -55,4 +59,15 @@ db.collection.deleteMany()
 db.collection.drop()
 ```
 
+### Mongosh Comandos
 
+```bash
+
+mongosh "<URL>"
+# mongosh "mongodb://localhost:27017"
+
+```
+
+## Cat Comandos
+
+cat -n (numera as linhas)
