@@ -3,8 +3,8 @@
 Install TS and more
 
 ```bash
-yarn init -y
-yarn add -D typescript sucrase nodemon
+pnpm init -y
+pnpm add -D typescript sucrase nodemon
 mkdir src
 touch src/server.ts
 echo "const a: number = 5; console.log(a);" >> src/server.ts
@@ -38,12 +38,12 @@ echo "{
 Install eslint
 
 ```bash
-yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+pnpm add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 init eslint
 
 ```bash
-yarn eslint --init
+pnpm eslint --init
 ```
 
 add on `.eslintrc.js`
@@ -88,5 +88,5 @@ echo "module.exports = {
 Install prettier (if necessary)
 
 ```bash
-yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+pnpm add prettier eslint-config-prettier eslint-plugin-prettier -D
 ```
