@@ -158,3 +158,8 @@ export WSL_HOST=$(tail -1 /etc/resolv.conf | cut -d' ' -f2)
 export ADB_SERVER_SOCKET=tcp:$WSL_HOST:5037
 
 
+
+# pnpm
+export PNPM_HOME="/home/foxy/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
