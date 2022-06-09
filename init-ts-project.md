@@ -3,7 +3,7 @@
 Install TS and more
 
 ```bash
-pnpm init -y
+pnpm init
 pnpm add -D typescript sucrase nodemon
 mkdir src
 touch src/server.ts
