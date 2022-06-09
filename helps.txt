@@ -71,3 +71,7 @@ mongosh "<URL>"
 ## Cat Comandos
 
 cat -n (numera as linhas)
+
+## Git Comandos
+
+git reset <pasta> # desfazer git add .
