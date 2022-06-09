@@ -8,6 +8,8 @@ pnpm add -D typescript sucrase nodemon
 mkdir src
 touch src/server.ts
 echo "const a: number = 5; console.log(a);" >> src/server.ts
+echo "node_modules" > .gitignore
+echo ".env" > .gitignore
 ```
 
 add on `package.json`
