@@ -14,6 +14,8 @@ docker pull <image>
 docker run --name <nome-personalizado> -d <imagem>
 
 docker container ls
+docker container ls -a # lista containers desligados
+docker container start <container> # inicia containers
 docker logs -f <container>
 docker rm <container>
 docker rmi --force <container>
