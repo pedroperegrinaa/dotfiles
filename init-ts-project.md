@@ -4,7 +4,7 @@ Install TS and more
 
 ```bash
 pnpm init
-pnpm add -D typescript sucrase nodemon
+pnpm add -D typescript sucrase nodemon @types/node
 mkdir src
 touch src/server.ts
 echo "const a: number = 5; console.log(a);" >> src/server.ts
