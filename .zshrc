@@ -164,3 +164,6 @@ export ADB_SERVER_SOCKET=tcp:$WSL_HOST:5037
 export PNPM_HOME="/home/foxy/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+export DISPLAY=$(ip route list default | awk '{print $3}'):0
+export LIBGL_ALWAYS_INDIRECT=1
