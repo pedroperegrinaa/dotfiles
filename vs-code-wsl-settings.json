@@ -1,5 +1,4 @@
 {
-  
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -8,11 +7,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescriptreact"
+  ],
 
   "[typescript]": {
-    "editor.formatOnSave": false,
-
+    "editor.formatOnSave": false
   },
 
   "[typescriptreact]": {
@@ -22,8 +25,8 @@
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
-  }, 
-  
+  },
+
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
@@ -31,11 +34,9 @@
 
   "[css]": {
     "editor.suggest.insertMode": "replace",
-    
+
     "editor.formatOnSave": true,
-    "gitlens.codeLens.scopes": [
-      "document"
-    ]
+    "gitlens.codeLens.scopes": ["document"]
   },
   "[json]": {
     "editor.formatOnSave": true,
@@ -43,9 +44,8 @@
       "strings": true
     },
     "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": [
-      "document"
-    ]
+    "gitlens.codeLens.scopes": ["document"]
   },
-  "editor.fontFamily": "Hack"
+  "editor.fontFamily": "Hack",
+  "explorer.compactFolders": false
 }
