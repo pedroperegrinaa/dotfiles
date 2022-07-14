@@ -77,3 +77,30 @@ cat -n (numera as linhas)
 ## Git Comandos
 
 git reset <pasta> # desfazer git add .
+
+
+## Android emulator
+
+### Windows
+
+(SDK em `C:\Users\{user}\AppData\Local\Android\Sdk\`)
+
+#### .\avdmanager.bat
+
+Sdk\cmdline-tools\latest\bin
+
+```powershell
+# Lista todos os AVDs possiveis
+.\avdmanager.bat list
+# Lista os que estão instalados
+.\avdmanager.bat list avd
+```
+
+#### ./emulator.exe
+
+Sdk\tools
+
+```powershell
+# inicia o emulador
+.\emulator.exe -avd {avd_name}
+```
